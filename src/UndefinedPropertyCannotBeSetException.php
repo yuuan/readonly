@@ -23,7 +23,7 @@ class UndefinedPropertyCannotBeSetException extends LogicException
     protected string $className;
 
     /**
-     * Create a exception instance.
+     * Create an exception instance.
      *
      * @param  string  $key
      * @param  class-string  $className
