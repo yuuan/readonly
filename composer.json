@@ -1,0 +1,26 @@
+{
+    "name": "yuuan/readonly",
+    "description": "Trait to define read-only properties",
+    "type": "library",
+    "homepage": "https://github.com/yuuan/readonly",
+    "authors": [
+        {
+            "name": "yuuAn",
+            "homepage": "https://github.com/yuuan"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yuuan\\ReadOnly\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yuuan\\Tests\\ReadOnly\\": "tests/"
+        }
+    },
+    "license": "MIT"
+}
